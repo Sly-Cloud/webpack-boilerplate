@@ -4,6 +4,7 @@
   "description": "Webpack setup",
   "private": true,
   "scripts": {
+    "lint": "eslint ./src --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack"
